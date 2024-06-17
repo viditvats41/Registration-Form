@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    min-height: 100vh;
+    background: url(reg-img2.jpg) no-repeat;
+}
+.wrapper{
+    width: 400px;
+    background-color: transparent;
+    backdrop-filter: blur(20px);
+    border: 2px solid rgba(255,255,255,2);
+    box-shadow: 0 0 10px rgba(0,0,0,.2);
+    color: white;
+    border-radius: 10px;
+    padding: 30px 40px;
+}
+.wrapper h1{
+    font-size: 25px;
+    text-align: center;
+}
+.wrapper .input-box{
+    position: relative;
+    width: 100%;
+    height: 40px;
+    margin: 20px 0;
+}
+.input-box input{
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    border: 2px solid rgba(255,255,255,2);
+    border-radius: 40px;
+    font-size: 15px;
+    color: white;
+    padding: 20px 40px 20px 20px;
+
+
+}
+.input-box input::placeholder{
+    color: white;
+}
+.wrapper .button{
+    width: 100%;
+    height: 40px;
+    border-radius: 40px;
+    border: none;
+    outline: none;
+    font-size: 15px;
+    color: ;
+    background-color: white;
+    box-shadow:  0 0 10px rgba(0,0,0,.1);
+    cursor: pointer;
+    color: #333;
+    font-weight: 600;
+}
+.wrapper .Login-link{
+    font-size: 15px;
+    text-align: center;
+    margin: 20px 0 15px;
+}
+.Login-link a{
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+}
+.Login-link a:hover{
+    text-decoration: underline;
+}

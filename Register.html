@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Regiatration Form </title>
+        <link rel="icon" href="reg-icon.png">
+        <link rel="stylesheet" href="Register-Style.css">
+
+    </head>
+    <body>
+        <div class="wrapper">
+            <form action="#">
+                <h1> Registration</h1>
+
+                <div class="input-box">
+                    <input type="text" placeholder="Name" id="name" name="name"required>
+                </div>
+                
+                
+                <div class="input-box">
+                    <input type="text" placeholder="Address" id="address" required>
+                </div>
+
+                <div class="input-box">
+                    <input type="tel" placeholder="Phone Number" id="phn" required>
+                </div>
+
+                <div class="input-box">
+                    <input type="email" placeholder="Email" id="mail" required>
+                </div>
+
+                <div class="input-box">
+                    <input type="password" placeholder="Password" id="psd" required>
+                </div>
+
+                <button type="submit" class="button" onclick="name()"> Register</button>
+
+                <div class="Login-link">
+                    <p>Already have account? <a href="#"> Login</a>
+                </div>
+
+                <script>
+                    function name(){
+                        if(name != text){
+                            debugger;
+                            console.log(document.getElementById("name").value);
+                        }
+                        else{
+                            document.getElementById("name");
+                        }
+                    }
+                </script>
+
+            </form>
+
+        </div>
+
+    </body>
+</html>
